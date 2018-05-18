@@ -7,7 +7,7 @@ export class PokedexService {
   private baseUrl = 'https://pokeapi.co/api/v2/pokemon/';
   private baseSpriteUrl = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/';
 
-  constructor(private pokedexService: PokedexService, private http: Http) { }
+  constructor(private http: Http) { }
 
   getPokemon(offset: number, limit: number) {
     return this.http.get(`${this.baseUrl}?offset=${offset}&limit=${limit}`)
