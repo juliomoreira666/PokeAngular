@@ -1,5 +1,8 @@
 # PokeAngular
 
+Para poder rodar o projeto, primeiro rode dentro da pasta o comando 'npm install', apos a instalação rode o comando 'ng serve',
+para poder executar o projeto e necessário o angular CLI.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
 ## Development server
