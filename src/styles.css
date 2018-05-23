@@ -1,1 +1,41 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=VT323');
+* {
+    font-family: 'VT323', monospace;
+    font-size: 30px!important;
+}
+.pokedex-pokemon {
+    text-align: center;
+}
+body {
+    padding: 10px;
+    background-image: url('https://vignette.wikia.nocookie.net/pixel-car-racer/images/5/50/Wiki-background/revision/latest/scale-to-width-down/1280?cb=20160725032702');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+}
+
+.logo {
+    width: 30%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.pokedex {
+    position: fixed;
+    padding: 20px;
+    height: 790px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    overflow: auto!important;
+    
+}
+.pokedex-pokemon {
+    margin-top: 1em;
+}
+
+.load-button {
+ background: red;
+ color: #ffff;
+}
